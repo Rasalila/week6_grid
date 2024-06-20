@@ -1,0 +1,80 @@
+.header {
+  min-height: 70px;
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(170, 169, 169);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.main {
+  min-height: 70px;
+  border: 1px solid rgb(60, 60, 60);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.greenbox {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: lightgreen;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.yellowbox {
+  background-color: rgb(255, 255, 142);
+  display: grid;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.text_yellowbox {
+  margin: 0;
+  text-align: center;
+}
+
+.yellow_one {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(247, 186, 106);
+  padding: 10px;
+  grid-column-start: 1;
+  height: 50px;
+}
+.yellow_two {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(247, 186, 106);
+  padding: 10px;
+  grid-column-start: 2;
+  height: 50px;
+}
+
+.yellow_alone {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(247, 186, 106);
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 50px;
+}
+
+.footer {
+  min-height: 70px;
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(170, 169, 169);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text_footer {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(232, 232, 232);
+  width: 20%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
